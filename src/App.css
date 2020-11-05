@@ -16,7 +16,18 @@ button {
   background-color: #EB3F3F !important;
   border: none !important;
   font-weight: 600 !important;
-  /* padding: 10px 15px !important; */
+  box-shadow: 5px 9px 13px 0px rgba(235,63,63,0.75) !important;
+  -webkit-box-shadow: 5px 9px 13px 0px rgba(235,63,63,0.75);
+  -moz-box-shadow: 5px 9px 13px 0px rgba(235,63,63,0.75);
+  transition:  0.8s !important;
+}
+.btn-main:hover {
+  transform: translate(20px, 0);
+}
+
+
+.btn-main:focus {
+  outline: none;
 }
   @media (prefers-reduced-motion: no-preference) {
   .App-logo {
