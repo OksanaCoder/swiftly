@@ -4,6 +4,13 @@
   /* background: url('/src/images/back.jpg'); */
   background-size: cover;
 }
+.path-back {
+  /* background: url('/src/images/back-back.png'); */
+}
+.head-2 {
+ margin: 50px auto 50px;
+ text-align: center;
+}
 button {
   padding: 10px 25px !important;
 }
@@ -24,7 +31,14 @@ button {
 .btn-main:hover {
   transform: translate(20px, 0);
 }
-
+.icon-map {
+  width: 50px;
+  margin-bottom: 10px;
+  transition:  0.8s;
+}
+.icon-map:hover {
+  transform: translate(0, -20px);
+}
 
 .btn-main:focus {
   outline: none;
