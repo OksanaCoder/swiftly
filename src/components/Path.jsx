@@ -1,7 +1,7 @@
 import React, { Component, useEffect } from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
 import img from '../images/icon.png'
-import winner from '../images/winner.png'
+import winner from '../images/choice.png'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -45,7 +45,7 @@ const Path = () => {
               </Row>
               <Row>
                   <Col lg={12} md={12} sm={12} style={{textAlign: 'right'}}>
-                      <img src={winner}/>
+                      <img src={winner} style={{width: '250px'}}/>
                   </Col>
               </Row>
           </Container>

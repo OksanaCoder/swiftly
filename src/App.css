@@ -10,6 +10,7 @@
 .head-2 {
  margin: 50px auto 50px;
  text-align: center;
+ font-weight: 700;
 }
 button {
   padding: 10px 25px !important;
@@ -19,6 +20,7 @@ button {
   color: #000 !important;
   font-weight: 600;
 }
+
 .btn-main {
   background-color: #EB3F3F !important;
   border: none !important;
