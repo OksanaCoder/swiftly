@@ -1,13 +1,24 @@
-.App {
-  text-align: center;
+.welcome {
+  /* background-color: #F7F7F7; */
+  height: 100vh; 
+  /* background: url('/src/images/back.jpg'); */
+  background-size: cover;
+}
+button {
+  padding: 10px 25px !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nav-color > *{
+  color: #000 !important;
+  font-weight: 600;
 }
-
-@media (prefers-reduced-motion: no-preference) {
+.btn-main {
+  background-color: #EB3F3F !important;
+  border: none !important;
+  font-weight: 600 !important;
+  /* padding: 10px 15px !important; */
+}
+  @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
