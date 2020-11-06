@@ -6,6 +6,7 @@ import Path from './components/Path'
 import Features from './components/Features'
 import FeaturesMentors from './components/FeaturesMentors'
 import FeaturesCompany from './components/FeaturesCompany'
+import Footer from './components/Footer'
 
 
 
@@ -17,6 +18,7 @@ function App() {
       <Features />
       <FeaturesMentors />
       <FeaturesCompany />
+      <Footer />
     </div>
   );
 }
