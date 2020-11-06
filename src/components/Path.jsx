@@ -19,7 +19,7 @@ const Path = () => {
           
               <Row style={{textAlign:'center'}}>
                   <Col lg={2} md={3} sm={12} > 
-                    <img src={img} className='icon-map' data-aos="fade-down-left" data-aos-duration="2000"/>
+                    <img src={img} className='icon-map' data-aos="fade-down-left" data-aos-duration="1000"/>
                     <h6> Login with Social security number</h6>
                   </Col>
                   <Col lg={2} md={3} sm={12} style={{marginTop: '50px'}}> 
@@ -27,11 +27,11 @@ const Path = () => {
                     <h6> Fill profile once</h6>
                   </Col>
                   <Col lg={2} md={3} sm={12} style={{marginTop: '100px'}}> 
-                    <img src={img} className='icon-map' data-aos="fade-down-left" data-aos-duration="2000"/>
+                    <img src={img} className='icon-map' data-aos="fade-down-left" data-aos-duration="3000"/>
                     <h6> Give tests</h6>
                   </Col>
                   <Col lg={2} md={3} sm={12} style={{marginTop: '150px'}}> 
-                    <img src={img} className='icon-map' data-aos="fade-down-left" data-aos-duration="2000"/>
+                    <img src={img} className='icon-map' data-aos="fade-down-left" data-aos-duration="4000"/>
                     <h6> Let AI find jobs for you</h6>
                   </Col>
                   <Col lg={2} md={3} sm={12} style={{marginTop: '200px'}}> 

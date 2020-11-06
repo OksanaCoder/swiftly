@@ -3,8 +3,10 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Welcome from './components/Welcome'
 import Path from './components/Path'
-import Recommend from './components/Recommend'
 import Features from './components/Features'
+import FeaturesMentors from './components/FeaturesMentors'
+import FeaturesCompany from './components/FeaturesCompany'
+
 
 
 function App() {
@@ -12,8 +14,9 @@ function App() {
     <div>
       <Welcome />
       <Path />
-      <Recommend />
       <Features />
+      <FeaturesMentors />
+      <FeaturesCompany />
     </div>
   );
 }
