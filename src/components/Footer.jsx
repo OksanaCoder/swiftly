@@ -18,8 +18,8 @@ const Footer = () => {
                     </Col>
                 </Row>
                 <Row className='pb-3 pt-4'>
-                    <Col lg={6} md={6} sm={12}>© Swiftly</Col>
-                    <Col lg={6} md={6} sm={12}>
+                    <Col lg={8} md={8} sm={12}>© Swiftly</Col>
+                    <Col lg={4} md={4} sm={12}>
                         <ul className='list-unstyled' style={{display: 'flex', justifyContent: 'space-between'}}>
                             <li>Contact</li>
                             <li>About us</li>

@@ -15,7 +15,7 @@ class Welcome extends Component  {
         <div className='welcome'>
             <NavBar />
             <Container>
-                <Row style={{display: 'flex', justifyContent: 'space-between', alignItems: 'center', paddingTop: '80px'}}>
+                <Row style={{display: 'flex', justifyContent: 'space-between', alignItems: 'center', paddingTop: '120px'}}>
                     <Col lg={6} md={6} sm={12}>
                     <h1 style={{fontSize: '60px', fontWeight: '800'}}>Swiftly.
               <Typed

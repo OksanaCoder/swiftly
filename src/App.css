@@ -2,7 +2,6 @@ html {
   scroll-behavior: smooth ;
 }
 .welcome {
-  height: 100vh; 
   background-size: cover;
 }
 .path-back {
