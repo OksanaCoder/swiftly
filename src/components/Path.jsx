@@ -13,7 +13,7 @@ const Path = () => {
         AOS.init();
     }, [])
     return (
-        <div className='path-back'>
+        <div className='path-back' id='path'>
           <Container>
               <Row className='head-2'>
                   <Col style={{display: 'flex', justifyContent:'center', alignContent: 'center'}}> 

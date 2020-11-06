@@ -34,10 +34,10 @@ class Welcome extends Component  {
                         <h2 style={{ color: '#1E1E1E', margin: '20px 0 20px', fontSize: '23px'}}>Live Learning and Automated Recruiting platform</h2>
                         <h6 style={{color: '#8B8E92', fontSize: '20px', marginTop: '20px', marginBottom: '20px'}}>Post jobs, review applications, schedule interviews
 and hire, all at one place.</h6>
-
-                        <Button className='btn-main'>How it works
+<Button className='btn-main' href='#path'>How it works
                         
                         </Button>
+                   
                     </Col>
                     <Col lg={6} md={6} sm={12}>
                        <img src={back} style={{width: '100%'}}/>

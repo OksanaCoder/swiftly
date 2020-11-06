@@ -1,13 +1,11 @@
+html {
+  scroll-behavior: smooth ;
+}
 .welcome {
-  /* background-color: #F7F7F7; */
   height: 100vh; 
-  /* background: url('/src/images/back.jpg'); */
   background-size: cover;
 }
 .path-back {
-  /* background-image:   url('/src/images/vector.png'); */
-  /* height: 100vh; */
-
 
   background-size: cover;
 }

@@ -2,11 +2,13 @@ import React, { Component } from 'react'
 import { Navbar, Nav, Container } from 'react-bootstrap'
 import logo from '../images/logo.png'
 
+
 const NavBar = () => {
     return (
         <div >
+
+        <Navbar collapseOnSelect expand="lg" variant='light' fixed="top" style={{ background: '#fff'}} >
         <Container >
-        <Navbar collapseOnSelect expand="lg" variant='light' className='navbar-fixed-top' >
         <Navbar.Brand href="#home">
             <img src={logo} style={{width : '100px'}}/>
         </Navbar.Brand>
@@ -14,15 +16,17 @@ const NavBar = () => {
         <Navbar.Collapse id="responsive-navbar-nav">
           
             <Nav className="ml-auto nav-color">
-            <Nav.Link href="#deets">Job Seekers</Nav.Link>
-            <Nav.Link href="#deets">Mentors</Nav.Link>
-            <Nav.Link href="#deets">For Companies</Nav.Link>
-            <Nav.Link href="#deets">Accounts</Nav.Link>
-            <Nav.Link href="#deets">Bypass</Nav.Link>
+            <Nav.Link href="#features">Job Seekers</Nav.Link>
+            <Nav.Link href="#featuresMentor">Mentors</Nav.Link>
+            <Nav.Link href="#featuresCompany">For Companies</Nav.Link>
+            <Nav.Link href="#accounts">Accounts</Nav.Link>
+            <Nav.Link href="#bypass">Bypass</Nav.Link>
             </Nav>
+        
         </Navbar.Collapse>
+        </Container >
         </Navbar>
-        </Container>
+
         </div>
     )
 }
