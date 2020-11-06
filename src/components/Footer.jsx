@@ -5,16 +5,27 @@ import { faFacebook, faTwitter, faGoogle } from '@fortawesome/free-brands-svg-ic
 
 const Footer = () => {
     return (
-        <div style={{background: '#000', color: '#fff'}}>
+        <div style={{background: '#182538', color: '#8E9195'}}>
             <Container>
-                <Row style={{ padding: '50px' }}>
-                    <Col lg={6} md={6} sm={12}>© Swiftly</Col>
-                    <Col lg={6} md={6} sm={12} style={{textAlign: 'right'}}>
+                <Row className='pt-5'>
+                  
+                    <Col lg={12} md={12} sm={12} style={{textAlign: 'right'}}>
                         
-                             <FontAwesomeIcon icon={faFacebook} style={{color: '#fff'}}/>
+                             <FontAwesomeIcon icon={faFacebook}/>
                              <FontAwesomeIcon className='ml-4' icon={faTwitter} />
                              <FontAwesomeIcon className='ml-4' icon={faGoogle} />
                          
+                    </Col>
+                </Row>
+                <Row className='pb-3 pt-4'>
+                    <Col lg={6} md={6} sm={12}>© Swiftly</Col>
+                    <Col lg={6} md={6} sm={12}>
+                        <ul className='list-unstyled' style={{display: 'flex', justifyContent: 'space-between'}}>
+                            <li>Contact</li>
+                            <li>About us</li>
+                            <li>FAQ's</li>
+                            <li>Support</li>
+                        </ul>
                     </Col>
                 </Row>
             </Container>

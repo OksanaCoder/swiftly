@@ -5,7 +5,11 @@
   background-size: cover;
 }
 .path-back {
-  /* background: url('/src/images/back-back.png'); */
+  /* background-image:   url('/src/images/vector.png'); */
+  /* height: 100vh; */
+
+
+  background-size: cover;
 }
 .head-2 {
  margin: 50px auto 50px;
@@ -48,7 +52,7 @@ button {
   transform: translate(20px, 0);
 }
 .icon-map {
-  width: 50px;
+  width: 100px;
   margin-bottom: 10px;
   transition:  0.8s;
 }

@@ -4,9 +4,9 @@ import logo from '../images/logo.png'
 
 const NavBar = () => {
     return (
-        <>
-        <Container>
-        <Navbar collapseOnSelect expand="lg" variant='light' >
+        <div >
+        <Container >
+        <Navbar collapseOnSelect expand="lg" variant='light' className='navbar-fixed-top' >
         <Navbar.Brand href="#home">
             <img src={logo} style={{width : '100px'}}/>
         </Navbar.Brand>
@@ -23,7 +23,7 @@ const NavBar = () => {
         </Navbar.Collapse>
         </Navbar>
         </Container>
-        </>
+        </div>
     )
 }
 

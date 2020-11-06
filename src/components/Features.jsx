@@ -3,7 +3,7 @@ import { Container, Row, Col } from 'react-bootstrap'
 
 const Features = () => {
     return(
-        <div style={{background: '#5222D0', color: '#fff', paddingBottom: '50px', marginTop: '40px'}}>
+        <div style={{background: '#89CBD6', color: '#fff', paddingBottom: '50px', marginTop: '40px'}}>
             <Container>
                <Row>
                   <Col><h2 className='head-2 pt-5 pb-5'>Getting started with Swiftly as a Job Seeker</h2></Col>

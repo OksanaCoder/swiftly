@@ -1,9 +1,11 @@
 import React, { Component, useEffect } from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
-import img from '../images/icon.png'
+import img from '../images/icon-2.jpg'
 import winner from '../images/choice.png'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import search from '../images/logo-icon.png'
+
 
 
 const Path = () => {
@@ -14,10 +16,13 @@ const Path = () => {
         <div className='path-back'>
           <Container>
               <Row className='head-2'>
-                  <Col>  <h2 className='head-2'>How Does It Work ?</h2></Col>
+                  <Col style={{display: 'flex', justifyContent:'center', alignContent: 'center'}}> 
+                  {/* <img src={search} style={{width: '50px'}}/> */}
+                    <h2 className='head-2'>How Does It Work ?</h2></Col>
               </Row>
           
               <Row style={{textAlign:'center'}}>
+                  
                   <Col lg={2} md={3} sm={12} > 
                     <img src={img} className='icon-map' data-aos="fade-down-left" data-aos-duration="1000"/>
                     <h6> Login with Social security number</h6>
